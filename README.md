@@ -14,4 +14,5 @@ pip install -r requirements.txt
 ```
 # Structure 
 |- Hand -> this folder includes the project that use the human hand
-
+## zill palayer in Hand folder
+![zill player](./Hand/example.jpg)
