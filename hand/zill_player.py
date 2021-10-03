@@ -16,6 +16,7 @@ sounds = [pygame.mixer.Sound(p) for p in sound_paths]
    # Now plays at 90% of full volume.
 def zill(z=0, vol=1):
     # lock.acquire()
+    z=z%len(sounds)
     sounds[z].set_volume(vol)
     sounds[z].play()     
     # lock.release()
